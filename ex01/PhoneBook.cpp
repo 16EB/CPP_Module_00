@@ -105,6 +105,11 @@ static bool assert_field(ContactField key, std::string& value, std::string& err)
 				return false;
 			}
 		}
+		if (new_value.empty())
+		{
+			err = "empty phone number.";
+			return false;
+		}
 		value = new_value;
 	}
 	return true;
