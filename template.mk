@@ -4,7 +4,7 @@
 .SUFFIXES: .cpp .o .hpp .h .tpp
 .PHONY: all clean cleanobj cleanbin re
 
-CX = c++
+CXX = c++
 RM = rm -f
 
 OBJECTS_DIR = objs/
