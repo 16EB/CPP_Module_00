@@ -5,10 +5,10 @@
 
 const std::string& Contact::Get(ContactField key) const
 {
-	return this->table[key];
+    return this->table[key];
 }
 
 void Contact::Set(ContactField key, const std::string& value)
 {
-	this->table[key] = value;
+    this->table[key] = value;
 }

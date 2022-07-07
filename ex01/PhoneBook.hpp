@@ -11,11 +11,11 @@
 class PhoneBook
 {
 private:
-	Contact contacts[CONTACT_ROW_MAX];
-	std::size_t count;
+    Contact contacts[CONTACT_ROW_MAX];
+    std::size_t count;
 
 public:
-	PhoneBook();
-	void Add();
-	void Search();
+    PhoneBook();
+    void Add();
+    void Search();
 };
